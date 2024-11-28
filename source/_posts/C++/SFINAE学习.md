@@ -8,7 +8,7 @@ categories:
 SFINAE 全称是substitution failure is not an error（“替换失败不是错误”），是C++模板当中的一项技术，感觉主要用途是在模板替换参数失败时，继续编译而不是报错并停止编译。
 
 以下内容翻译自：[https://www.cppstories.com/2016/02/notes-on-c-sfinae/](https://www.cppstories.com/2016/02/notes-on-c-sfinae/)
-
+<!--more-->
 # 引言
 ```cpp
 struct Bar {

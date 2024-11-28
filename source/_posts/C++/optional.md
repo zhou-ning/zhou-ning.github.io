@@ -6,7 +6,7 @@ categories:
 - C++
 ---
 optional可以处理那些可能为空的情况，尤其是作为函数返回值时。比如：一个函数返回值是int时，有时候会将-1作为异常值返回，但是有时候-1可能也是有效值，就又需要想异常值，这个时候optional就起到作用了。
-
+<!--more-->
 ```cpp
 #include <iostream>
 #include <optional>
